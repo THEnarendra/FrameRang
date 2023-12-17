@@ -1,4 +1,31 @@
 .upperNav{
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #2c2929;
+    height: 10vh;
+}
+.upperNav > div > input{
+    border-radius: 30px;
+    width: 30vw;
+    height: 5vh;
+    padding: 1px 40px;
+}
+.searchIcon{
+    position: absolute;
+    margin: 12px;
+}
+.buttons{
+    border-radius: 20px;
+    height: 35px;
+    width: 100px;
+    border: none;
+    color: white;
+    background-color: purple;
+    cursor: pointer;
+}
+.buttons:hover{
+    color: purple;
+    background-color: white;
+    border: 2px solid purple;
 }

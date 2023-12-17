@@ -1,13 +1,20 @@
 import React from 'react';
 import './Header.css'
 
-const Header = () => {
+const Header = () => { 
   return (
     <>
     <div className="upperNav">
         <div>Narendra</div>
-        <div><input type="text" placeholder='Search Products'/></div>
-        <div><button>Login/Signup</button></div>
+        <div>
+        <a href=""><i className="searchIcon fa-solid fa-magnifying-glass"></i></a>
+          <input type="text" placeholder='Search Products'/></div>
+        <div>
+          <button className='buttons'>Login/Signup</button>
+          
+          
+          <div className=""></div>
+        </div>
     </div>
 
     <div className="bottomNav">
